@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">  
+  <script src="https://kit.fontawesome.com/cda4e4f4cf.js" crossorigin="anonymous"></script>
+  <script src="app.js" defer></script>
+  <title>Be Clean</title>
+</head>
+<body>
+
+  <header>
+    <div class="headerTop">
+      <div class="headerTopCont">
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i></li>
+          <li>Brooklyn,</li>
+          <li>NY 10036,</li>
+          <li>United States</li>
+          <li><i class="fa-solid fa-phone"></i></li>
+          <li> + 1 (000) 111 2233</li>
+        </ul>
+      </div>
+    </div>
+    <!-- -------------------navbar---------------- -->
+    <div class="responsiveNavBarcont">
+      <div class="resresponsiveNavBar">
+        <h1>Be Clean</h1>
+        <button onclick="showNavMenu()"> ☰ </button>
+        <div class="navMenu">
+          <ul>
+            <li>Home</li>
+            <li onclick="showDrowMenu()">Features
+              <ul class="drowDown2">
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Calculated Form</li>
+                <li>Services Booking</li>
+                <li>Pricing</li>
+                <li>Latest News</li>
+                <li>Photo Gallery</li>
+              </ul>
+            </li>
+            <li>Shortcodes</li>
+            <li>Post Types</li>
+            <li>Shop</li>
+            <li>Contacts</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <nav class="navBar">
+      <div class="navBarCont">
+        <div class="logoCont">
+          <h1>Be Clean</h1>
+        </div>
+        <div class="primalyContainer">
+          <ul>
+            <li>Home</li>
+            <li>Features
+              <ul class="drowDown1">
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Calculated Form</li>
+                <li>Services Booking</li>
+                <li>Pricing</li>
+                <li>Latest News</li>
+                <li>Photo Gallery</li>
+              </ul>
+            </li>
+            <li>Shortcodes</li>
+            <li>Post Types</li>
+            <li>Shop</li>
+            <li>Contacts</li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <!-- -----------------slider images----------------- -->
+    <div class="sliderCont">
+      <div class="sliderTexts">
+        <div class="bigTexts">
+          <h2>We do it well</h2>
+          <h1>Worry no more. Let us do your chores.
+            Quick. Proper.</h1>
+        </div>
+        <div class="smalTexts">
+          <p>Our professional and experienced cleaning
+            staff does the job right the first time.</p>
+        </div>
+        <div class="textbuttons">
+          <button>Learn More</button>
+          <button>Quick Note</button>
+        </div>
+      </div>
+      <div class="mainImages">
+        <img class="scolimg1" src="https://be-clean.cmsmasters.net/wp-content/uploads/2016/05/02-home-1-1.jpg" alt="img0">
+        <img class="scolimg2" src="https://be-clean.cmsmasters.net/wp-content/uploads/2016/05/02-home-2.jpg" alt="img1">
+        <img class="scolimg3" src="https://be-clean.cmsmasters.net/wp-content/uploads/2016/05/03-home-2-1.jpg" alt="img0">
+      </div>
+      <div class="buttonsCont">
+        <label for="radio1">
+          <input type="radio" name="radioBtn" onclick="showImg1()" id="radio1">
+        </label>
+        <label for="radio2">
+          <input type="radio" name="radioBtn" onclick="showImg2()" id="radio2">
+        </label>
+        <label for="radio3">
+          <input type="radio" name="radioBtn" onclick="showImg3()" id="radio3">
+        </label>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="mianAboutCont">
+      <div class="contact_work">
+        <div class="openDaysCont">
+          <i class="fa-solid fa-calendar-days"></i>
+          <h3>We are open</h3>
+          <h2>Mon-Fri: 08:00–17:00</h2>
+        </div>
+        <div class="mobileCont">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <h3>Call us now</h3>
+          <h2>+732-555-1234</h2>
+        </div>
+        <div class="emailCont">
+          <i class="fa-regular fa-envelope"></i>
+          <h3>Order the service by mail:</h3>
+          <h2>info@company.com</h2>
+        </div>
+      </div>
+      <div class="aboutWorkCont">
+        <div class="aboutWorkText">
+          <h5>Enjoy your time off</h5>
+          <h2>How We Work</h2>
+        </div>
+        <div class="aboutWorkImages">
+          <div class="about1">
+            <img src="https://be-clean.cmsmasters.net/wp-content/uploads/2016/05/Depositphotos_101684520_original.jpg" alt="">
+            <h4>Contact us to book a term</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et feugiat mi. Sed lacinia euismod convallis.</p>
+          </div>
+          <div class="about1">
+            <img src="https://be-clean.cmsmasters.net/wp-content/uploads/2016/05/Depositphotos_108216438_original.jpg" alt="">
+            <h4>Welcome our cleaning girl</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et feugiat mi. Sed lacinia euismod convallis</p>
+          </div>
+          <div class="about1">
+            <img src="https://be-clean.cmsmasters.net/wp-content/uploads/2016/05/Depositphotos_88662986_original.jpg" alt="">
+            <h4>Enjoy the premium service</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et feugiat mi. Sed lacinia euismod convallis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="contactFormCont">
+        <img src="https://be-clean.cmsmasters.net/wp-content/uploads/2016/05/02-2-1.jpg" alt="">
+        <div class="contactForm">
+          <h1>Service Booking</h1>
+          <div class="nameCont">
+            <label for="yourname">Your Name(required)</label>
+            <input type="text" id="yourname">
+          </div>
+          <div class="emailCont">
+            <label for="youremail">Your Email (required)</label>
+            <input type="email" id="youremail">
+          </div>
+          <div class="textAreaCont">
+            <label for="yourmessage">Your Message</label>
+            <textarea name="youmessage" id="yourmessage" ></textarea>
+          </div>
+
+          <button type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="mainFooterCont">
+      <div class="footerCont">
+        <div class="beCleanFooterText">
+          <h2>Be Clean</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat.
+             Integer blandit, nulla quis fermentum hendrerit,
+             nisi diam viverra metus, porta semper est ipsum et sapien.</p>
+        </div>
+        <div class="contacInformationCont">
+          <h2>Contact Information</h2>
+          <ul>
+            <li>Brooklyn, NY 10036, United States</li>
+            <li><a href="#/">example@cleaning.com</a></li>
+            <li>Call Us: 1-800-123-1234</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footerColor"></div>
+  </footer>
+  <button class="homeScrolBtn" onclick="homeScroll()">↑</button>
+</body>
+</html>
